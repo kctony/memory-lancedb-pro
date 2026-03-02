@@ -594,6 +594,20 @@ LanceDB 表 `memories`：
 
 ---
 
+## 主要贡献者
+
+按 GitHub Contributors 列表自动生成（按 commit 贡献数排序，已排除 bot）：
+
+- [@win4r](https://github.com/win4r)（3 次提交）
+- [@kctony](https://github.com/kctony)（2 次提交）
+- [@Akatsuki-Ryu](https://github.com/Akatsuki-Ryu)（1 次提交）
+- [@JasonSuz](https://github.com/JasonSuz)（1 次提交）
+- [@Minidoracat](https://github.com/Minidoracat)（1 次提交）
+- [@furedericca-lab](https://github.com/furedericca-lab)（1 次提交）
+- [@joe2643](https://github.com/joe2643)（1 次提交）
+
+完整列表：https://github.com/win4r/memory-lancedb-pro/graphs/contributors
+
 ## License
 
 MIT

@@ -720,6 +720,20 @@ upgrade to **memory-lancedb-pro >= 1.0.14**. This plugin now coerces these value
 
 ---
 
+## Contributors
+
+Top contributors (from GitHub’s contributors list, sorted by commit contributions; bots excluded):
+
+- [@win4r](https://github.com/win4r) (3 commits)
+- [@kctony](https://github.com/kctony) (2 commits)
+- [@Akatsuki-Ryu](https://github.com/Akatsuki-Ryu) (1 commit)
+- [@JasonSuz](https://github.com/JasonSuz) (1 commit)
+- [@Minidoracat](https://github.com/Minidoracat) (1 commit)
+- [@furedericca-lab](https://github.com/furedericca-lab) (1 commit)
+- [@joe2643](https://github.com/joe2643) (1 commit)
+
+Full list: https://github.com/win4r/memory-lancedb-pro/graphs/contributors
+
 ## License
 
 MIT
