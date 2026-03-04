@@ -39,6 +39,7 @@ interface PluginConfig {
   autoCapture?: boolean;
   autoRecall?: boolean;
   autoRecallMinLength?: number;
+  autoRecallMinRepeated?: number;
   captureAssistant?: boolean;
   retrieval?: {
     mode?: "hybrid" | "vector";
@@ -987,6 +988,7 @@ function parsePluginConfig(value: unknown): PluginConfig {
     // Default OFF: only enable when explicitly set to true.
     autoRecall: cfg.autoRecall === true,
     autoRecallMinLength: parsePositiveInt(cfg.autoRecallMinLength),
+    autoRecallMinRepeated: parsePositiveInt(cfg.autoRecallMinRepeated),
     captureAssistant: cfg.captureAssistant === true,
     retrieval:
       typeof cfg.retrieval === "object" && cfg.retrieval !== null
