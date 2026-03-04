@@ -138,7 +138,11 @@ const CAPTURE_EXCLUDE_PATTERNS = [
 ];
 
 export function shouldCapture(text: string): boolean {
-  const s = text.trim();
+  let s = text.trim();
+
+  // Strip OpenClaw metadata headers (Conversation info or Sender)
+  const metadataPattern = /^(Conversation info|Sender) \(untrusted metadata\):[\s\S]*?\n\s*\n/gim;
+  s = s.replace(metadataPattern, "");
 
   // CJK characters carry more meaning per character, use lower minimum threshold
   const hasCJK = /[\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ff\uac00-\ud7af]/.test(
